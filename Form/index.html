@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form | Suman Tamang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="form-container fade-in">
+        <h1>Contact Me</h1>
+        <p>Fill out the form below and I'll get back to you.</p>
+
+        <form action="#" method="post">
+            
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="options">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+            </div>
+
+            <!-- Hobbies -->
+            <div class="form-group">
+                <label>Favorite Hobbies</label>
+                <div class="options">
+                    <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+                    <label><input type="checkbox" name="hobbies" value="gaming"> Gaming</label>
+                    <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Write something..."></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
